@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrofit get Android Array"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/RetrofitArray" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrofit get Android Object"
+        android:layout_below="@+id/RetrofitArray"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/RetrofitObject" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrofit post string to server "
+        android:layout_below="@+id/RetrofitObject"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/postStringData" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrofit post string and img to server"
+        android:layout_below="@+id/postStringData"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/postStringimgData" />
+
+</RelativeLayout>
